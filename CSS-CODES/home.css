@@ -1,0 +1,815 @@
+			.navbar-brand{
+				font-size: 25px;
+				padding-left: 100px;
+				color: #fff;
+			}
+			
+			.navbar-nav{
+				margin: 0 auto;
+			}
+
+			.navbar-nav .nav-item{
+				margin-left: 40px;
+			}
+
+			.navbar-nav .nav-item .nav-link{
+				color: #fff;
+			}
+
+			.navbar-nav .nav-item a:hover{
+				color:#ffa500;
+				transition: 0.4s ease-in-out;
+			}
+			
+			.navbar .btn{
+				color: #fff;
+				height: 50px;
+				margin-right: 200px;
+			}
+
+			.navbar-toggler{
+				border: 3px solid #ffa500;
+				background: #fff;
+			}
+
+			.HOME{
+				width: 100%;
+				height: 80vh;
+				background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(crypto-exchanges.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+
+			.HOME .content{
+				color: #fff;
+				width: 86.5%;
+				margin: auto;
+			}
+
+			.home-intro .intro-text{
+				padding-top: 150px;
+				display: flex;
+				gap: 200px;
+			}
+
+			.home-intro .intro-text h1{
+				font-size: 53px;
+				margin-bottom: 20px;
+			}
+
+			.home-intro .intro-text p{
+				color:  #b2beb5;
+				margin-bottom: 60px;
+			}
+
+			.home-intro .intro-text button{
+				width: 200px;
+				height: 50px;
+				background: #ffa500;
+				border: none;
+			}
+
+			.home-intro .intro-text button a{
+				text-decoration: none;
+				color: #fff
+			}
+
+			.home-intro .intro-text .intro-btcImg{
+				width: 300px;
+				height: 300px;
+				opacity: 0.7;
+				border-radius: 200px;
+			}
+
+			.crypto-market-slider{
+				width: 100%;
+			}
+			
+			.tradingview-widget-copyright {
+				font-size: 13px !important;
+				line-height: 32px !important;
+			    text-align: center !important;
+			    font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important;
+			    color: #9db2bd !important;
+				display: none !important;
+			}
+
+			.get-started{
+				height: 90vh;
+				background: black;				
+				color: #fff;
+				padding-top: 150px;
+				margin-top: -33.5px;
+			}
+
+			.get-started-content{
+				width: 86.5%;
+				margin: auto;
+				text-align: center;
+			}
+
+			.get-started-content h1{
+				font-size: 50px;
+				margin-bottom: 20px;
+			}
+
+			.get-started-content p{
+				color: #b2beb5;
+			}
+
+			.get-started-cards{
+				width: 86.5%;
+				margin: auto;
+			}
+
+			.get-started-cards .card{
+				width: 460px;
+				height: 350px;
+				background: #252433;
+			}
+
+			.get-started-cards .row{
+				display: flex;
+				gap: 30px;
+			}
+		
+			.get-started-cards .card .card-body{
+				padding-top: 40px;
+				color: #fff;
+			}
+
+			.get-started-cards .card .card-body h5{
+				font-size: 35px;
+			}
+
+			.get-started-cards .card .card-body p{
+				color: #b2beb5;
+			}
+
+			.get-started-cards .card .card-body p a{
+				text-decoration: none;
+				color:  #b2beb5;
+			}
+
+			.about-us{
+				width: 100%;
+				height: 90vh;
+				background: black;
+				color: #fff;
+			}
+
+			.about-us .about-us-content{
+				width: 86.5%;
+				margin: auto;
+				padding-top: 200px;
+				display: flex;
+				gap: 100px;
+			}
+
+			.about-us .about-us-content .about-us-texts h7{
+				font-weight: bold;
+
+			}
+
+			.about-us .about-us-content .about-us-texts h1{
+				font-size: 50px;
+				margin-bottom: 30px;
+			}
+
+			.about-us .about-us-content .about-us-texts p{
+				font-size: 18px;
+				margin-bottom: 30px;
+			}
+
+			.about-us .about-us-content .about-us-texts ul li{
+				list-style: none;
+				font-size: 18px;
+				padding-bottom: 10px;
+				position: relative;
+				right: 32px;
+			}
+
+			.about-us .about-us-content .about-us-texts ul li img{
+				position: relative;
+				bottom: 4px;
+			}
+
+			.bitcoin-converter .card{
+				width: 460px;
+				height: 350px;
+				background: #252433;
+			}
+
+			.bitcoin-converter .card-body{
+				padding-top: 40px;
+			}
+
+			.bitcoin-converter .card-body h3{
+				font-size: 42px;
+				color:#ffa500;
+				margin-bottom: 25px;
+			}
+
+			.bitcoin-converter .card-body h5{
+				font-size: 24px;
+				color: #fff;
+			}
+
+			.bitcoin-converter .card-body .btn{
+				background: #ffa500;
+				color: #fff;
+			}
+
+			.features{
+				height: 90vh;
+				background: black;
+			}
+
+			.features .features-content{
+				padding-top: 180px;
+				width: 86.5%;
+				margin: auto;
+				color: #fff;
+			}
+				
+			.features .features-content .features-texts{
+				text-align: center;
+			}
+
+			.features .features-content .features-texts h7{
+				font-weight: bold;
+			}
+
+			.features .features-content .features-texts h1{
+				font-size: 50px;
+				margin-bottom: 20px;
+			}
+
+			.features .features-content .features-texts p{
+				color:  #b2beb5;
+			}
+
+			.features .features-content .features-info{
+				display: flex;
+				gap: 200px;
+			}
+
+			.features .features-content .features-info .section-icon{
+				width: 50px;
+				position: relative; 
+				top: 40px;
+			}
+
+			.features .features-content .features-info .section-image{
+				position: relative;
+				top: 70px;
+			}
+
+			.features .features-content .features-info p{
+				color:  #b2beb5;
+				padding-bottom: 20px;
+			}
+
+			.market{
+				height: 90vh;
+				background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(image1.png);
+				background-size: cover;
+				background-position: center;
+			}
+
+			.market .market-content{
+				width: 86.5%;
+				margin: auto;
+				color: #fff;
+				padding-top: 150px;
+			}
+
+			.market .market-content .market-text h7{
+				font-weight: bold;
+			}
+
+			.market .market-content .market-text h1{
+				font-size: 50px;
+			}
+
+			.choose-us{
+				height: 90vh;
+				background: black;
+			}
+
+			.choose-us-content{
+				width: 86.5%;
+				margin: auto;
+				color: #fff;
+				padding-top: 150px;
+			}
+
+			.choose-us-content .choose-us-text h7{
+				font-weight: bold;
+			}
+
+			.choose-us-content .choose-us-text h1{
+				font-size: 50px;
+			}
+
+			.choose-us-content .choose-us-text p{
+				color:  #b2beb5;
+				padding-bottom: 35px;
+			}
+
+			.choose-us-content .choose-us-info p{
+				color:  #b2beb5;
+				padding-top: 10px;
+				position: relative;
+				left: 27px;
+			}
+
+			.choose-us-content .choose-us-info .choose-logo{
+				position: relative;
+				right: 10px;
+			}
+
+			.choose-us-content .choose-us-text{
+				float: right;
+			}
+
+			.owners-quote{
+				height: 60vh;
+				background: black;
+			}
+
+			.owners-quote .owners-quote-content{
+				width: 86.5%;
+				margin: auto;
+				text-align: center;
+				padding-top: 180px;
+			}
+
+			.owners-quote .owners-quote-content .owners-quote-text p{
+				color: #b2beb5;
+				font-style: italic;
+				font-size: 18px;
+			}
+
+			.owners-quote .owners-quote-content .owners-quote-text h5{
+				color: #fff;
+				font-weight: bold;
+				font-size: 25px;
+			}
+
+			.owners-quote .owners-quote-content .owners-quote-text .oq-img{
+				margin-bottom: 25px;
+			}
+
+			.owners-quote .owners-quote-content .owner-img{
+				width: 90px;
+				height: 90px;
+				border-radius: 50%;
+				border: 3px solid #ffa500;
+			}
+
+			.contact{
+				height: 60vh;
+				background: black;
+				color: #fff;
+			}
+			
+			.contact .contact-content{
+				width: 86.5%;
+				margin: auto;
+				padding-top: 100px;
+				display: flex;
+				gap: 250px;
+			}
+
+			.contact-content .cointrol h1{
+				font-size: 50px;
+				padding-bottom: 15px;
+				font-weight: bold;
+			}
+
+			.contact-content .use-full-link h3{
+				padding-bottom: 15px;
+			}
+
+			.contact-content .use-full-link ul li{
+				list-style:disc;
+				padding-bottom: 10px;
+				font-weight: bold;
+				font-size: 18px;
+			}
+
+			.contact-content .use-full-link ul li a{
+				text-decoration: none;
+				color: #fff;
+				transition: 0.4s ease-in-out;
+			}
+
+			.contact-content .use-full-link ul li a:hover{
+				color: #ffa500;
+			}
+
+			.contact-content .contact-details h3{
+				padding-bottom: 15px;
+			}
+
+			.contact-content .contact-details div{
+				padding-bottom: 38px;
+			}
+
+/* Mobile-first styles */
+@media (max-width: 576px) {
+	/* Adjust navbar styles for mobile */
+	.navbar-brand {
+	  font-size: 20px;
+	  padding-left: 10px;
+	}
+	
+	.navbar-nav .nav-item {
+	  margin: 0;
+	}
+  
+	.navbar-nav .nav-item .nav-link {
+	  font-size: 14px;
+	}
+
+	.navbar .btn {
+	  height: 40px;
+	  margin-right: 10px;
+	}
+  
+	/* Modify font sizes and padding for heading and text */
+	.home-intro .intro-text div{
+		position: relative;
+		bottom: 100px;
+	}
+	
+	.home-intro .intro-text h1 {
+	  font-size: 32px;
+	  margin-bottom: 10px;
+	}
+  
+	.home-intro .intro-text p {
+	  font-size: 14px;
+	  margin-bottom: 30px;
+	}
+  
+	/* Adjust card width and font size */
+	.get-started{
+		height: 200vh;
+	}
+
+	.get-started-content{
+		position: relative;
+		bottom: 90px;
+	}
+
+	.get-started .get-started-content h1{
+		font-size: 43px;
+	}
+
+	.get-started-cards{
+		position: relative;
+		bottom: 80px;
+	}
+
+	.get-started-cards .card {
+	  width: 100%;
+	}
+	
+	.get-started-cards .card .card-body h5 {
+	  font-size: 20px;
+	}
+	
+	.get-started-cards .card .card-body p {
+	  font-size: 14px;
+	}
+  
+	/* Adjust about-us content padding */
+	.about-us{
+		height: 150vh;
+	}
+
+	.about-us .about-us-content {
+		width: 86.5%;
+		margin: auto;
+		padding-top: 20px;
+		display:list-item;
+		list-style: none;
+	}
+  
+	/* Modify font sizes for about-us section */
+	.about-us .about-us-content .about-us-texts h1 {
+	  font-size: 43px;
+	  margin-bottom: 20px;
+	}
+	
+	.about-us .about-us-content .about-us-texts p {
+	  font-size: 16px;
+	  margin-bottom: 20px;
+	}
+
+	.bitcoin-converter .card{
+		width: 100%;
+		height: 400px;
+		background: #252433;
+	}
+
+	.bitcoin-converter .card .card-body{
+		position: relative;
+		bottom: 10px;
+	}
+  
+	/* Adjust section info gap */
+	.features{
+		height: 140vh;
+	}
+
+	.features .features-content{
+		position: relative;
+		bottom: 170px;
+	}
+
+	.features .features-content .features-info {
+	  gap: 12px;
+	}
+
+	.features .features-content .features-info .section-2{
+		display: none;
+	}
+  
+	/* Modify font sizes for features section */
+	.features .features-content .features-texts h1 {
+	  font-size: 43px;
+	  margin-bottom: 10px;
+	}
+	
+	.features .features-content .features-texts p {
+	  font-size: 16px;
+	  margin-bottom: 20px;
+	}
+  
+	/* Adjust section info gap */
+	.market{
+		height: 110vh;
+	}
+
+	.market .market-content{
+		position: relative;
+		bottom: 90px;
+	}
+
+	.market .market-content .market-text h1{
+		font-size: 43px;
+	}
+
+	.market .market-content .tradingview-widget-container {
+	  width: 100%;
+	}
+
+	/* Adjust choose us section  */
+	.choose-us{
+		height: 150vh;
+	}
+
+	.choose-us .choose-us-content {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		gap: 7px;
+	  }
+
+	.choose-us .choose-us-content .choose-us-text h1{
+		font-size: 43px;
+	}
+	/* Adjust owners quote section  */
+	.owners-quote{
+		height: 70vh;
+	}
+
+	.owners-quote .owners-quote-content{
+		position: relative;
+		bottom: 170px;
+	}
+
+	/* Adjust contact section  */
+	.contact{
+		height: 130vh;
+	}
+
+	.contact .contact-content{
+		display: list-item;
+		list-style: none;
+		position: relative;
+		bottom: 70px;
+	}
+
+  }
+  
+  /* Tablet and larger screens */
+  @media (min-width: 577px) and (max-width: 1024px) {
+	/* Adjust home section */
+	.home-intro .intro-text div h1{
+		font-size: 50px;
+	}
+
+	.home-intro .intro-text div img{
+		display: none;
+	}
+
+	/* Adjust get-started section */
+	.get-started{
+		height: 150vh;
+	}
+
+	.get-started .get-started-content h1{
+		font-size: 50px;
+	}
+
+	.get-started-cards{
+		padding-top: 40px;
+	}
+
+	.get-started-cards .card {
+	  width: 100%;
+	}
+
+	/* Adjust about-us content padding */
+	.about-us{
+		height: 110vh;
+	}
+
+	.about-us .about-us-content {
+		padding-top: 160px;
+		display:list-item;
+		list-style: none;
+	}
+
+	.about-us .about-us-content .about-us-texts h1{
+		font-size: 50px;
+	}
+
+	.bitcoin-converter .card{
+		margin-top: 40px;
+	}
+
+	/* Adjust features section info gap */
+	.features{
+		height: 90vh;
+	}
+	.features .features-content .features-info {
+	  gap: 50px;
+	}
+
+	.features .features-content .features-info .section-2{
+		display: none;
+	}
+
+	/* Adjust section info gap */
+	.choose-us .choose-us-content {
+	  display: flex;
+	  flex-direction: column-reverse;
+	  align-items: center;
+	  gap: 20px;
+	}
+  
+	/* Modify font sizes for choose-us section */
+	.choose-us{
+		height: 120vh;
+	}
+
+	.choose-us .choose-us-content .choose-us-text h1 {
+	  font-size: 50px;
+	  padding-bottom: 10px;
+	}
+	
+	.choose-us .choose-us-content .choose-us-text p {
+	  font-size: 16px;
+	  padding-bottom: 20px;
+	}
+  
+	/* Adjust owner quote padding */
+	.owners-quote .owners-quote-content {
+	  padding-top: 120px;
+	}
+  
+	/* Modify font sizes for owner quote section */
+	.owners-quote .owners-quote-content .owners-quote-text p {
+	  font-size: 16px;
+	}
+	
+	.owners-quote .owners-quote-content .owners-quote-text h5 {
+	  font-size: 20px;
+	}
+  
+	/* Adjust padding for contact content */
+	.contact-content {
+		padding-top: 50px;
+	  }
+	
+	/* Modify font sizes for contact section */
+	  .contact-content .cointrol h1 {
+		font-size: 40px;
+	  }
+	  
+	.contact-content .use-full-link h3 {
+		font-size: 24px;
+	  }
+	
+	.contact-content .use-full-link ul li {
+		font-size: 16px;
+	  }
+	
+	/* Adjust contact details padding */
+	  .contact-content .contact-details h3 {
+		padding-bottom: 10px;
+	  }
+
+	/* Adjust section info gap */
+	.contact .contact-content {
+	  gap: 50px;
+	}
+  }
+  
+  /* desktop large screens from 1440px */
+  @media (min-width: 1440px) and (max-width: 1440px) {
+		/* get started section */
+		.get-started .get-started-content{
+			position: relative;
+			bottom: 70px;
+		}
+
+		.get-started .get-started-content p{
+			font-size: 15px;
+		}
+
+		.get-started-cards{
+			width: 86.5%;
+			margin: auto;
+		}
+
+		.get-started-cards .card{
+			width: 400px;
+			height: 350px;
+			background: #252433;
+		}
+
+		.get-started-cards .row{
+			display: flex;
+			gap: 30px;
+		}
+
+		/* features section */
+		.features{
+			height: 110vh;
+		}
+
+		.features .features-content{
+			position: relative;
+			bottom: 70px;
+		}
+  }
+
+  /* desktop large screens from 1280px */
+  @media (min-width: 1280px) and (max-width: 1280px) {
+	/* get started section */
+	.get-started .get-started-content{
+		position: relative;
+		bottom: 70px;
+	}
+
+	.get-started .get-started-content p{
+		font-size: 15px;
+	}
+
+	.get-started-cards{
+		width: 86.5%;
+		margin: auto;
+	}
+
+	.get-started-cards .card{
+		width: 350px;
+		height: 350px;
+		background: #252433;
+	}
+
+	.get-started-cards .row{
+		display: flex;
+		gap: 30px;
+	}
+
+	/* features section */
+	.features{
+		height: 120vh;
+	}
+
+	.features .features-content{
+		position: relative;
+		bottom: 70px;
+	}
+
+	.features .features-content .features-info{
+		gap: 100px;
+	}
+}
+   

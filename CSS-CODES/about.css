@@ -1,0 +1,527 @@
+			.navbar-brand{
+				font-size: 25px;
+				padding-left: 100px;
+				color: #fff;
+			}
+			
+			.navbar-nav{
+				margin: 0 auto;
+			}
+
+			.navbar-nav .nav-item{
+				margin-left: 40px;
+			}
+
+			.navbar-nav .nav-item .nav-link{
+				color: #fff;
+			}
+
+			.navbar-nav .nav-item a:hover{
+				color:#ffa500;
+				transition: 0.4s ease-in-out;
+			}
+			
+			.navbar .btn{
+				color: #fff;
+				height: 50px;
+				margin-right: 200px;
+			}
+
+			.navbar-toggler{
+				border: 3px solid #ffa500;
+				background: #fff;
+			}
+
+            .main{
+                width: 100%;
+            }
+
+			.About-us{
+				height: 50vh;
+				background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(crypto-exchanges.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+
+			.About-us .About-us-content{
+				color: #fff;
+				width: 86.5%;
+				margin: auto;
+                text-align: center;
+                padding-top: 150px;
+			}
+
+			.About-us .About-us-content p{
+                font-size: 18px;
+            }
+
+            .About-us .About-us-content .about-us-hr{
+                border-top: 3px solid #ffa500;
+                width: 100px;
+                position: relative;
+                left: 670px;
+            }
+			
+			.About-us-slider{
+				width: 100%;
+                height: 45px;
+				background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(slider-img.jpg);
+                text-align: center;
+                padding-top: 10px;
+                color: #fff;
+                font-size: 18px;
+			}
+			
+			.info-section{
+                height: 80vh;
+                background: black;
+            }
+
+            .info-section .info-content{
+                width: 86.5%;
+				margin: auto;
+                color: #fff;
+				padding-top: 120px;
+            }
+
+			.info-section .info-content h1{
+				font-size: 55px;
+			}
+
+			.info-section .info-content p{
+				padding-top: 18px;
+				color:#b2beb5;
+			}
+
+			.info-section .info-content .info-content-text{
+				display: flex;
+				gap: 100px;
+				padding-left: 150px;
+				padding-top: 20px;
+			}
+
+			.info-section .info-content .info-content-text p{
+				padding-left: 30px;
+				margin-top: 20px;
+				color: #b2beb5;
+				width: 60%;
+				background: #252433;
+			}
+
+			.bitcoin-feature{
+				height: 100vh;
+				background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(image1.png);
+			}
+
+			.bitcoin-feature .bitcoin-feat-content{
+				width: 86.5%;
+				margin: auto;
+				text-align: center;
+				color: #fff;
+				padding-top: 130px;
+			}
+
+			.bitcoin-feature .bitcoin-feat-content h1{
+				font-size: 55px;
+			}
+
+			.bitcoin-feature .bitcoin-feat-content .bitcoin-feat-hr{
+				border-top: 3px solid #ffa500;
+                width: 100px;
+				position: relative;
+                left: 670px;
+			}
+
+			.bitcoin-feature .bitcoin-feat-content p{
+				color: #b2beb5;
+			}
+
+			.bitcoin-feat-text{
+				float: left;
+                text-align: left;
+			}
+
+			.bitcoin-feat-text .first-part{
+				display: flex;
+				gap: 300px;
+			}
+
+			.bitcoin-feat-text .second-part{
+				display: flex;
+				gap: 300px;
+				margin-top: 45px;
+			}
+
+			.contact{
+				height: 60vh;
+				background: black;
+				color: #fff;
+			}
+			
+			.contact .contact-content{
+				width: 86.5%;
+				margin: auto;
+				padding-top: 100px;
+				display: flex;
+				gap: 250px;
+			}
+
+			.contact-content .cointrol h1{
+				font-size: 50px;
+				padding-bottom: 15px;
+			}
+
+			.contact-content .use-full-link h3{
+				padding-bottom: 15px;
+			}
+
+			.contact-content .use-full-link ul li{
+				list-style: square;
+				padding-bottom: 10px;
+				font-weight: bold;
+				font-size: 18px;
+			}
+
+			.contact-content .use-full-link ul li a{
+				text-decoration: none;
+				color: #fff;
+				transition: 0.4s ease-in-out;
+			}
+
+			.contact-content .use-full-link ul li a:hover{
+				color: #ffa500;
+			}
+
+			.contact-content .contact-details h3{
+				padding-bottom: 15px;
+			}
+
+			.contact-content .contact-details div{
+				padding-bottom: 38px;
+			}
+
+/* Small screens (phones) */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar .btn {
+        margin-right: 20px;
+    }
+/* About us section */
+    .About-us-content {
+        padding-top: 100px;
+    }
+
+    .About-us .About-us-content h1 {
+        font-size: 30px;
+    }
+
+    .About-us .About-us-content .about-us-hr {
+        left: 36%;
+    }
+
+/* Info section */
+    .info-section{
+        height: 250vh;
+    }
+
+    .info-section .info-content{
+        display: flex;
+		flex-direction:column;
+		align-items: center;
+		gap: 7px;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .info-section .info-content h1 {
+        font-size: 32px;
+    }
+
+    .info-section .info-content .info-content-text{
+        display: list-item;
+        list-style: none;
+        padding-left: 5px;
+    }
+
+    .info-section .info-content .info-content-text img{
+        width: 350px;
+        height: 400px;
+    }
+
+    .info-section .info-content .info-content-text p {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    /* bitcoin section */
+    .bitcoin-feature{
+        height: 200vh;
+    }
+    .bitcoin-feature .bitcoin-feat-content h1 {
+        font-size: 35px;
+    }
+
+    .bitcoin-feature .bitcoin-feat-content .bitcoin-feat-hr {
+        left: 33%;
+    }
+
+    .bitcoin-feat-text {
+        display: block;
+        position: relative;
+        left: 11%;
+        text-align: center;
+    }
+
+    .bitcoin-feat-text .first-part, .bitcoin-feat-text .second-part {
+        display: block;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    /* contact section */
+    .contact{
+        height: 170vh;
+    }   
+
+    .contact .contact-content {
+        flex-direction: column;
+        gap: 17px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact-content .cointrol h1 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .navbar-brand {
+        font-size: 22px;
+        padding-left: 40px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 20px;
+    }
+
+    .navbar .btn {
+        margin-right: 40px;
+    }
+
+    /* About us section */
+    .About-us-content {
+        padding-top: 120px;
+    }
+
+    .About-us .About-us-content h1 {
+        font-size: 40px;
+    }
+
+    .About-us .About-us-content .about-us-hr {
+        left: 43%;
+    }
+
+    /* Info section*/
+    .info-section{
+        height: 150vh;
+    }
+
+    .info-section .info-content h1 {
+        font-size: 50px;
+    }
+
+    .info-section .info-content .info-content-text p {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 100px;
+    }
+
+    .info-section .info-content .info-content-text{
+        display: list-item;
+        list-style: none;
+        padding-left: 5px;
+    }
+
+    .info-section .info-content .info-content-text img{
+        width: 400px;
+        height: 450px;
+        position: relative;
+        left: 150px;
+        margin-top: 60px;
+    }
+
+    /* bitcoin section */
+    .bitcoin-feature{
+        height: 160vh;
+    }
+
+    .bitcoin-feat-content h1 {
+        font-size: 50px;
+    }
+
+    .bitcoin-feature .bitcoin-feat-content .bitcoin-feat-hr {
+        left: 43%;
+    }
+
+    .bitcoin-feat-text {
+        display: block;
+        position: relative;
+        left: 31%;
+        text-align: center;
+    }
+
+    .bitcoin-feat-text .first-part, .bitcoin-feat-text .second-part {
+        display: block;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    /* contact section */
+    .contact{
+        height: 50vh;
+    }
+    
+    .contact .contact-content{
+        margin: auto;
+        padding-top: 100px;
+        display: flex;
+        gap: 50px;
+    }
+
+    .contact-content .cointrol h1{
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+
+    .contact-content .use-full-link h3{
+        padding-bottom: 15px;
+    }
+
+    .contact-content .use-full-link ul li{
+        list-style: square;
+        padding-bottom: 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .contact-content .use-full-link ul li a{
+        text-decoration: none;
+        color: #fff;
+        transition: 0.4s ease-in-out;
+    }
+
+    .contact-content .use-full-link ul li a:hover{
+        color: #ffa500;
+    }
+
+    .contact-content .contact-details h3{
+        padding-bottom: 15px;
+    }
+
+    .contact-content .contact-details div{
+        padding-bottom: 38px;
+    }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 993px) and (max-width: 1440px) {
+    /* navbar section */
+    .navbar-brand {
+        font-size: 25px;
+        padding-left: 100px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 40px;
+    }
+
+    .navbar .btn {
+        margin-right: 200px;
+    }
+
+    /* About us section */
+    .About-us-content {
+        padding-top: 150px;
+    }
+
+    .About-us .About-us-content h1 {
+        font-size: 55px;
+    }
+
+    .About-us .About-us-content .about-us-hr {
+        left: 46%;
+    }
+
+    /* Info section */
+    .info-section{
+        height: 130vh;
+    }
+
+    .info-section .info-content h1 {
+        font-size: 55px;
+    }
+
+    .info-section .info-content .info-content-text p {
+        width: 60%;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+
+     .info-section .info-content .info-content-text img{
+        width: 330px;
+        height: 430px;
+        position: relative;
+        top: 80px;
+    }
+
+    /* bitcoin section */
+    .bitcoin-feature{
+        height: 110vh;
+    }
+
+    .bitcoin-feat-content h1 {
+        font-size: 55px;
+    }
+
+    .bitcoin-feature .bitcoin-feat-content .bitcoin-feat-hr {
+        left: 46%;
+    }
+
+    .bitcoin-feat-text {
+        display: block;
+        text-align:left;
+    }
+
+    .bitcoin-feat-text .first-part, .bitcoin-feat-text .second-part {
+        display: flex;
+        gap: 300px;
+        margin-top: 45px;
+    }
+
+    /* Contact section */
+    .contact{
+        height: 80vh;
+    }
+
+    .contact .contact-content {
+        flex-direction: row;
+        gap: 230px;
+    }
+
+    .contact-content .cointrol h1 {
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+}
