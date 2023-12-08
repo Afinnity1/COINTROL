@@ -525,3 +525,12 @@
         padding-bottom: 15px;
     }
 }
+
+/* desktop screens from 1366px */
+@media (min-width: 1366px) and (max-width: 1366px) {
+    .bitcoin-feature{
+        height: 140vh;
+     }
+
+    
+}

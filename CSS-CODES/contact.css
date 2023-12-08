@@ -372,3 +372,10 @@
             bottom: 60px;
         }
     }
+
+    /* desktop screens from 1366px */
+@media (min-width: 1366px) and (max-width: 1366px) {
+    .form{
+        height: 110vh;
+    }
+}

@@ -306,4 +306,11 @@
 					left: 46%;
 				}
 			}
+
+			/* desktop screens from 1366px */
+			@media (min-width: 1366px) and (max-width: 1366px) {
+				.FAQ-section{
+					height: 130vh;
+				}
+			}
 		
