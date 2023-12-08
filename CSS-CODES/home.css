@@ -867,10 +867,11 @@
 	}
 }
 
-* desktop screens from 1366px */
-@media (min-width: 1366px) and (max-width: 1366px) {
+/* desktop screens resolution 1920 x 1080 */
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
 	
-}
+  }
+  
 
 
    
