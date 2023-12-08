@@ -867,9 +867,11 @@
 	}
 }
 
-/* desktop screens resolution 1920 x 1080 */
+/* desktop screens resolution 1234 x 650 */
 @media screen and (min-width: 1920px) and (min-height: 1080px) {
-	
+	.HOME{
+		height: 100vh;
+	}
   }
   
 
