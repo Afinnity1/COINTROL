@@ -313,4 +313,29 @@
 					height: 130vh;
 				}
 			}
+
+			/* desktop screens resolution 1234 x 650 */
+			@media screen and (min-width: 1234px) and (min-height: 650px) {
+				.faq .faq-content{
+					position: relative;
+					bottom: 70px;
+				}
+
+				.faq .faq-content h1{
+					font-size: 43px;
+				}
+
+				.FAQ-section{
+					height: 155vh;
+				}
+
+				.contact{
+					height: 80vh;
+				}
+
+				.contact .contact-content{
+					gap: 160px;
+				}
+
+			}
 		

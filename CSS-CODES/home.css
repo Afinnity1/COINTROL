@@ -868,11 +868,68 @@
 }
 
 /* desktop screens resolution 1234 x 650 */
-@media screen and (min-width: 1920px) and (min-height: 1080px) {
+@media screen and (min-width: 1234px) and (min-height: 650px) {
 	.HOME{
+		height: 110vh;
+	}
+
+	.get-started{
+		height: 130vh;
+	}
+
+	.get-started-cards .card{
+		width: 330px;
+		height: 360px;
+		background: #252433;
+		margin-top: 20px;
+	}
+
+	.get-started-cards .row{
+		display: flex;
+		gap: 40px;
+	}
+
+	.about-us{
+		height: 120vh;
+	}
+
+	.about-us .about-us-content{
+		padding-top: 110px;
+	}
+
+	.features{
+		height: 160vh;
+	}
+
+	.features .features-content{
+		padding-top: 110px;
+	}
+
+	.features .features-content .features-info{
+		gap: 100px;
+	}
+
+	.market{
+		height: 110vh;
+	}
+
+	.choose-us{
+		height: 140vh;
+	}
+
+	.owners-quote{
 		height: 100vh;
 	}
-  }
+
+	.contact{
+		height: 80vh;
+	}
+
+	.contact .contact-content{
+		gap: 100px;
+	}
+
+}
   
 
 

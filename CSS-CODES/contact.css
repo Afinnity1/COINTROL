@@ -379,3 +379,38 @@
         height: 110vh;
     }
 }
+
+/* desktop screens resolution 1234 x 650 */
+@media screen and (min-width: 1234px) and (min-height: 650px) {
+    .Contact-us .Contact-us-content{
+        position: relative;
+        bottom: 70px;
+    }
+
+    .Contact-us .Contact-us-content h1{
+        font-size: 43px;
+    }
+
+    .form{
+        height: 120vh;
+    }
+
+    .info{
+        height: 35vh;
+    }
+
+    .info .details{
+       position: relative;
+       top: 25px;
+       gap: 350px;
+    }
+
+    .contact{
+        height: 80vh;
+    }
+
+    .contact .contact-content{
+        gap: 160px;
+    }
+
+}

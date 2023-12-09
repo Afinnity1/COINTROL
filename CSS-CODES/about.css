@@ -526,11 +526,30 @@
     }
 }
 
-/* desktop screens from 1366px */
-@media (min-width: 1366px) and (max-width: 1366px) {
-    .bitcoin-feature{
-        height: 140vh;
-     }
+/* desktop screens resolution 1234 x 650 */
+@media screen and (min-width: 1234px) and (min-height: 650px) {
+    .About-us .About-us-content{
+        position: relative;
+        bottom: 70px;
+    }
 
-    
+    .About-us .About-us-content h1{
+        font-size: 48px;
+    }
+
+    .info-section{
+        height: 175vh;
+    }
+
+    .info-section .info-content h1 {
+        font-size: 48px;
+    }
+
+    .bitcoin-feature{
+        height: 180vh;
+    }
+
+    .contact .contact-content{
+        gap: 120px;
+    }
 }
