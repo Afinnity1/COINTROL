@@ -347,8 +347,8 @@
 
     }
 
-    /* Media query for screens 1200px and larger (large devices) */
-    @media (min-width: 1200px) {
+    /* Media query for screens 1200px */
+    @media (width: 1200px) {
         /* styles for navigation */
         .navbar-brand {
             padding-left: 100px;
@@ -381,7 +381,7 @@
 }
 
 /* desktop screens resolution 1234 x 650 */
-@media screen and (min-width: 1234px) and (min-height: 650px) {
+@media screen and (width: 1234px) and (height: 650px) {
     .Contact-us .Contact-us-content{
         position: relative;
         bottom: 70px;
