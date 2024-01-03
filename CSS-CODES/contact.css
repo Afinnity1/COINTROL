@@ -1,7 +1,7 @@
             .navbar-brand{
 				font-size: 25px;
 				padding-left: 100px;
-				color: #fff;
+				color: #fff !important;
 			}
 			
 			.navbar-nav{
@@ -38,7 +38,7 @@
 
 			.Contact-us{
 				height: 50vh;
-				background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(crypto-exchanges.jpg);
+				background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/crypto-exchanges.jpg);
 				background-size: cover;
 				background-position: center;
 			}
@@ -65,7 +65,7 @@
 			.Contact-us-slider{
 				width: 100%;
                 height: 45px;
-                background: linear-gradient(rgba(0,0,0,0.56),rgba(0,0,0,0.56)),url(slider-img.jpg);
+                background: linear-gradient(rgba(0,0,0,0.56),rgba(0,0,0,0.56)),url(images/slider-img.jpg);
                 text-align: center;
                 padding-top: 10px;
                 color: #fff;
@@ -74,7 +74,7 @@
 
             .form{
                 height: 90vh;
-                background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(image1.png);
+                background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(images/image1.png);
             }
 			
             .form .form-content{
@@ -147,53 +147,92 @@
               color:#b2beb5;
            }
 
-			.contact{
-				height: 60vh;
-				background: black;
-				color: #fff;
-			}
-			
-			.contact .contact-content{
-				width: 86.5%;
-				margin: auto;
-				padding-top: 100px;
-				display: flex;
-				gap: 250px;
-			}
+        .ending-details{
+            height: 45vh;
+            background: #1A1A1A;
+        }
 
-			.contact-content .cointrol h1{
-				font-size: 50px;
-				padding-bottom: 15px;
-			}
+        .ending-detailsContent{
+            width: 95%;
+            margin: 0 auto;
+            display: flex;
+            gap: 80px;
+            padding: 70px;
+        }
 
-			.contact-content .use-full-link h3{
-				padding-bottom: 15px;
-			}
+        .ending-detailsContent{
+            color: #fff;
+        }
 
-			.contact-content .use-full-link ul li{
-				list-style: square;
-				padding-bottom: 10px;
-				font-weight: bold;
-				font-size: 18px;
-			}
+        .ending-detailsContent p{
+            color: #656765;
+        }
 
-			.contact-content .use-full-link ul li a{
-				text-decoration: none;
-				color: #fff;
-				transition: 0.4s ease-in-out;
-			}
+        .ending-detailsContent p:hover{
+            color: #ffa500;
+            transition: 0.3s ease-in-out;
+        }
 
-			.contact-content .use-full-link ul li a:hover{
-				color: #ffa500;
-			}
+        .ending-detailsContent p a:hover{
+            color: #ffa500;
+            transition: 0.3s ease-in-out;
+        }
 
-			.contact-content .contact-details h3{
-				padding-bottom: 15px;
-			}
+        .ending-detailsContent h4{
+            color: #fff;
+        }
 
-			.contact-content .contact-details div{
-				padding-bottom: 38px;
-			}
+        .ending-detailsContent a{
+            text-decoration: none;
+            color:#656765;
+        }
+
+        .ending-detailsContent input{
+            border: none;
+            border-bottom: 1px solid #656765;
+            padding-bottom: 6px;
+            background: transparent;
+        }
+
+        .ending-detailsContent .submit-button{
+            margin-top: 10px;
+            border: none;
+            border: 1px solid #ffa500;
+            width: 200px;
+            height: 50px;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            letter-spacing: 1.3px;
+        }
+
+        .ending-detailsContent .submit-button:hover{
+            border: none;
+            background: #ffa500;
+            transition: 0.3s ease-in-out;
+            color: #fff;
+        }
+
+        .accordion{
+            width: 100%;
+           }
+
+        .accordion-item{
+            background: none !important;
+            border: none !important;
+            color: #656765 !important;
+        }
+
+        .accordion-button{
+            background: none !important;
+            border: none !important;
+            color: #656765 !important;
+        }
+
+        .accordion-button:focus{
+            color: #fff !important;
+        }
+
 
      /* Media query for screens smaller than 576px (extra small devices) */
     @media (max-width: 575.98px) {
@@ -256,21 +295,20 @@
          }
 
          /* contact section */
-			.contact{
-				height: 128vh;
-			}   
-			
-			.contact .contact-content {
-				flex-direction: column;
-				gap: 17px;
-				text-align: center;
-				align-items: center;
-			}
-			
-			.contact-content .cointrol h1 {
-				font-size: 35px;
-				padding-bottom: 10px;
-			}
+         .ending-details{
+            height: 120vh;
+        }
+    
+        .ending-details .ending-detailsContent{
+            display: list-item;
+            list-style: none;
+            position: relative;
+            bottom: 70px;
+        }
+    
+        .ending-details .ending-detailsContent div{
+            margin-bottom: 35px;
+        }
     }
 
     
@@ -300,50 +338,20 @@
          }
 
         /*contact section */
-        .contact{
-            height: 50vh;
+        .ending-details{
+            height: 80vh;
         }
-        
-        .contact .contact-content{
-            margin: auto;
-            padding-top: 100px;
-            display: flex;
-            gap: 50px;
+    
+        .ending-details .ending-detailsContent{
+            display: list-item;
+            list-style: none;
+            position: relative;
+            bottom: 70px;
         }
-
-        .contact-content .cointrol h1{
-            font-size: 50px;
-            padding-bottom: 15px;
+    
+        .ending-details .ending-detailsContent div{
+            margin-bottom: 35px;
         }
-
-        .contact-content .use-full-link h3{
-            padding-bottom: 15px;
-        }
-
-        .contact-content .use-full-link ul li{
-            list-style: square;
-            padding-bottom: 10px;
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        .contact-content .use-full-link ul li a{
-            text-decoration: none;
-            color: #fff;
-            transition: 0.4s ease-in-out;
-        }
-
-        .contact-content .use-full-link ul li a:hover{
-            color: #ffa500;
-        }
-
-        .contact-content .contact-details h3{
-            padding-bottom: 15px;
-        }
-
-        .contact-content .contact-details div{
-            padding-bottom: 38px;
-        }    
 
     }
 
@@ -373,15 +381,56 @@
         }
     }
 
-    /* desktop screens from 1366px */
-@media (min-width: 1366px) and (max-width: 1366px) {
-    .form{
-        height: 110vh;
+/* desktop screens resolution 1366 x 768 */
+@media screen and (width: 1366px) and (height: 768px) {
+        .form{
+            height: 110vh;
+        }
+
+        .Contact-us .Contact-us-content .Contact-us-hr{
+            left: 46%;
+        }
+
+        .info .details{
+            gap: 250px;
+         }
+
+        .ending-details{
+            height: 60vh;
+        }
+        
+        .ending-detailsContent{
+            width: 100%;
+            gap: 30px;
+        } 
+}
+
+/* desktop screens resolution 1280 x 1024 */
+@media screen and (width: 1280px) and (height: 1024px) {
+    .Contact-us{
+        height: 35vh;
     }
+
+    .Contact-us .Contact-us-content .Contact-us-hr{
+        left: 46%;
+    }
+
+    .info .details{
+        gap: 200px;
+     }
+
+     .ending-detailsContent{
+        width: 100%;
+        gap: 30px;
+    } 
 }
 
 /* desktop screens resolution 1234 x 650 */
 @media screen and (width: 1234px) and (height: 650px) {
+    .Contact-us .Contact-us-content .Contact-us-hr{
+        left: 46%;
+    }
+
     .Contact-us .Contact-us-content{
         position: relative;
         bottom: 70px;
@@ -402,15 +451,15 @@
     .info .details{
        position: relative;
        top: 25px;
-       gap: 350px;
+       gap: 200px;
     }
 
-    .contact{
-        height: 80vh;
+    .ending-details{
+        height: 63vh;
     }
-
-    .contact .contact-content{
-        gap: 160px;
-    }
-
+    
+    .ending-detailsContent{
+        width: 100%;
+        gap: 30px;
+    } 
 }

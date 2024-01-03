@@ -1,7 +1,7 @@
 			.navbar-brand{
 				font-size: 25px;
 				padding-left: 100px;
-				color: #fff;
+				color: #fff !important;
 			}
 			
 			.navbar-nav{
@@ -38,7 +38,7 @@
 
 			.About-us{
 				height: 50vh;
-				background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(crypto-exchanges.jpg);
+				background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/crypto-exchanges.jpg);
 				background-size: cover;
 				background-position: center;
 			}
@@ -65,7 +65,7 @@
 			.About-us-slider{
 				width: 100%;
                 height: 45px;
-				background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(slider-img.jpg);
+				background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(images/slider-img.jpg);
                 text-align: center;
                 padding-top: 10px;
                 color: #fff;
@@ -110,7 +110,7 @@
 
 			.bitcoin-feature{
 				height: 100vh;
-				background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(image1.png);
+				background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(images/image1.png);
 			}
 
 			.bitcoin-feature .bitcoin-feat-content{
@@ -152,53 +152,92 @@
 				margin-top: 45px;
 			}
 
-			.contact{
-				height: 60vh;
-				background: black;
-				color: #fff;
+			.ending-details{
+				height: 45vh;
+				background: #1A1A1A;
 			}
-			
-			.contact .contact-content{
-				width: 86.5%;
-				margin: auto;
-				padding-top: 100px;
+
+			.ending-detailsContent{
+				width: 95%;
+				margin: 0 auto;
 				display: flex;
-				gap: 250px;
+				gap: 80px;
+				padding: 70px;
 			}
 
-			.contact-content .cointrol h1{
-				font-size: 50px;
-				padding-bottom: 15px;
-			}
-
-			.contact-content .use-full-link h3{
-				padding-bottom: 15px;
-			}
-
-			.contact-content .use-full-link ul li{
-				list-style: square;
-				padding-bottom: 10px;
-				font-weight: bold;
-				font-size: 18px;
-			}
-
-			.contact-content .use-full-link ul li a{
-				text-decoration: none;
+			.ending-detailsContent{
 				color: #fff;
-				transition: 0.4s ease-in-out;
 			}
 
-			.contact-content .use-full-link ul li a:hover{
+			.ending-detailsContent p{
+				color: #656765;
+			}
+
+			.ending-detailsContent p:hover{
 				color: #ffa500;
+				transition: 0.3s ease-in-out;
 			}
 
-			.contact-content .contact-details h3{
-				padding-bottom: 15px;
+			.ending-detailsContent p a:hover{
+				color: #ffa500;
+				transition: 0.3s ease-in-out;
 			}
 
-			.contact-content .contact-details div{
-				padding-bottom: 38px;
+			.ending-detailsContent h4{
+				color: #fff;
 			}
+
+			.ending-detailsContent a{
+				text-decoration: none;
+				color:#656765;
+			}
+
+			.ending-detailsContent input{
+				border: none;
+				border-bottom: 1px solid #656765;
+				padding-bottom: 6px;
+				background: transparent;
+			}
+
+			.ending-detailsContent .submit-button{
+				margin-top: 10px;
+				border: none;
+				border: 1px solid #ffa500;
+				width: 200px;
+				height: 50px;
+				background: transparent;
+				color: #fff;
+				cursor: pointer;
+				letter-spacing: 1.3px;
+			}
+
+			.ending-detailsContent .submit-button:hover{
+				border: none;
+				background: #ffa500;
+				transition: 0.3s ease-in-out;
+				color: #fff;
+			}
+
+			.accordion{
+				width: 100%;
+       		}
+
+			.accordion-item{
+				background: none !important;
+				border: none !important;
+				color: #656765 !important;
+			}
+
+			.accordion-button{
+				background: none !important;
+				border: none !important;
+				color: #656765 !important;
+			}
+
+			.accordion-button:focus{
+				color: #fff !important;
+			}
+
 
 /* Small screens (phones) */
 @media (max-width: 576px) {
@@ -288,21 +327,20 @@
     }
 
     /* contact section */
-    .contact{
-        height: 170vh;
-    }   
+    .ending-details{
+		height: 120vh;
+	}
 
-    .contact .contact-content {
-        flex-direction: column;
-        gap: 17px;
-        text-align: center;
-        align-items: center;
-    }
+	.ending-details .ending-detailsContent{
+		display: list-item;
+		list-style: none;
+		position: relative;
+		bottom: 70px;
+	}
 
-    .contact-content .cointrol h1 {
-        font-size: 35px;
-        padding-bottom: 10px;
-    }
+	.ending-details .ending-detailsContent div{
+		margin-bottom: 35px;
+	}
 }
 
 /* Medium screens (tablets) */
@@ -389,54 +427,24 @@
     }
 
     /* contact section */
-    .contact{
-        height: 50vh;
-    }
-    
-    .contact .contact-content{
-        margin: auto;
-        padding-top: 100px;
-        display: flex;
-        gap: 50px;
-    }
+    .ending-details{
+		height: 80vh;
+	}
 
-    .contact-content .cointrol h1{
-        font-size: 50px;
-        padding-bottom: 15px;
-    }
+	.ending-details .ending-detailsContent{
+		display: list-item;
+		list-style: none;
+		position: relative;
+		bottom: 70px;
+	}
 
-    .contact-content .use-full-link h3{
-        padding-bottom: 15px;
-    }
-
-    .contact-content .use-full-link ul li{
-        list-style: square;
-        padding-bottom: 10px;
-        font-weight: bold;
-        font-size: 18px;
-    }
-
-    .contact-content .use-full-link ul li a{
-        text-decoration: none;
-        color: #fff;
-        transition: 0.4s ease-in-out;
-    }
-
-    .contact-content .use-full-link ul li a:hover{
-        color: #ffa500;
-    }
-
-    .contact-content .contact-details h3{
-        padding-bottom: 15px;
-    }
-
-    .contact-content .contact-details div{
-        padding-bottom: 38px;
-    }
+	.ending-details .ending-detailsContent div{
+		margin-bottom: 35px;
+	}
 }
 
-/* Large screens (desktops) */
-@media (min-width: 993px) and (max-width: 1440px) {
+/* desktop screens resolution 1366 x 768 */
+@media screen and (width: 1366px) and (height: 768px) {
     /* navbar section */
     .navbar-brand {
         font-size: 25px;
@@ -479,7 +487,7 @@
         margin-top: 20px;
     }
 
-     .info-section .info-content .info-content-text img{
+    .info-section .info-content .info-content-text img{
         width: 330px;
         height: 430px;
         position: relative;
@@ -488,7 +496,7 @@
 
     /* bitcoin section */
     .bitcoin-feature{
-        height: 110vh;
+        height: 134vh;
     }
 
     .bitcoin-feat-content h1 {
@@ -510,21 +518,51 @@
         margin-top: 45px;
     }
 
-    /* Contact section */
-    .contact{
-        height: 80vh;
-    }
+    .ending-details{
+		height: 60vh;
+	}
 
-    .contact .contact-content {
-        flex-direction: row;
-        gap: 230px;
-    }
-
-    .contact-content .cointrol h1 {
-        font-size: 50px;
-        padding-bottom: 15px;
-    }
+    .ending-detailsContent{
+        width: 100%;
+        gap: 30px;
+    } 
 }
+
+  /* desktop screens resolution 1280 x 1024 */
+  @media screen and (width: 1280px) and (height: 1024px) {
+    .About-us{
+        height: 35vh;
+    }
+
+    .About-us .About-us-content .about-us-hr {
+        left: 46%;
+    }
+
+    .info-section{
+        height: 100vh;
+    }
+
+    .info-section .info-content .info-content-text img{
+        width: 330px;
+        height: 430px;
+        position: relative;
+        top: 80px;
+    }
+
+    .bitcoin-feature .bitcoin-feat-content .bitcoin-feat-hr {
+        left: 46%;
+    }
+
+    .bitcoin-feat-text .first-part, .bitcoin-feat-text .second-part {
+        display: flex;
+        gap: 250px;
+    }
+
+    .ending-detailsContent{
+        width: 100%;
+        gap: 30px;
+    } 
+  }
 
 /* desktop screens resolution 1234 x 650 */
 @media screen and (width: 1234px) and (height: 650px) {
@@ -537,6 +575,10 @@
         font-size: 48px;
     }
 
+    .About-us .About-us-content .about-us-hr {
+        left: 46%;
+    }
+
     .info-section{
         height: 175vh;
     }
@@ -545,11 +587,54 @@
         font-size: 48px;
     }
 
-    .bitcoin-feature{
-        height: 180vh;
+    .info-section .info-content .info-content-text img{
+        width: 330px;
+        height: 430px;
+        position: relative;
+        top: 80px;
     }
 
-    .contact .contact-content{
-        gap: 120px;
+    .bitcoin-feature{
+        height: 160vh;
+    }
+
+    .bitcoin-feature .bitcoin-feat-content .bitcoin-feat-hr {
+        left: 46%;
+    }
+
+    .bitcoin-feat-text .first-part, .bitcoin-feat-text .second-part {
+        display: flex;
+        gap: 230px;
+    }
+
+    .ending-details{
+		height: 73vh;
+	}
+
+    .ending-detailsContent{
+        width: 100%;
+        gap: 30px;
+    } 
+}
+
+/* desktop screens resolution 1440 x 900 */
+@media screen and (width: 1440px) and (height: 900px) {
+    .About-us .About-us-content .about-us-hr {
+        left: 46%;
+    }
+
+    .info-section{
+        height: 130vh;
+    }
+
+    .info-section .info-content .info-content-text img{
+        width: 330px;
+        height: 430px;
+        position: relative;
+        top: 80px;
+    }
+
+    .bitcoin-feature .bitcoin-feat-content .bitcoin-feat-hr {
+        left: 46%;
     }
 }

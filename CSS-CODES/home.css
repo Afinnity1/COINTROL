@@ -1,7 +1,11 @@
+			body{
+				background: black !important;
+			}
+			
 			.navbar-brand{
 				font-size: 25px;
 				padding-left: 100px;
-				color: #fff;
+				color: #fff !important;
 			}
 			
 			.navbar-nav{
@@ -27,15 +31,10 @@
 				margin-right: 200px;
 			}
 
-			.navbar-toggler{
-				border: 3px solid #ffa500;
-				background: #fff;
-			}
-
 			.HOME{
 				width: 100%;
 				height: 80vh;
-				background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(crypto-exchanges.jpg);
+				background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/milad-fakurian-wNsHBf_bTBo-unsplash.jpg);
 				background-size: cover;
 				background-position: center;
 			}
@@ -67,11 +66,17 @@
 				height: 50px;
 				background: #ffa500;
 				border: none;
+				border-radius: 5px;
 			}
 
 			.home-intro .intro-text button a{
 				text-decoration: none;
 				color: #fff
+			}
+
+			.home-intro .intro-text button:hover{
+				background: #1A1A1A;
+				transition: 0.3s ease-in-out;
 			}
 
 			.home-intro .intro-text .intro-btcImg{
@@ -96,7 +101,7 @@
 
 			.get-started{
 				height: 90vh;
-				background: black;				
+				background: ;				
 				color: #fff;
 				padding-top: 150px;
 				margin-top: -33.5px;
@@ -146,15 +151,27 @@
 				color: #b2beb5;
 			}
 
-			.get-started-cards .card .card-body p a{
-				text-decoration: none;
-				color:  #b2beb5;
+			.get-started-cards .card .card-body button{
+				width: 150px;
+				height: 40px;
+				border: hidden;
+				background: none;
+				color: #b2beb5;
+
+			}
+
+			.get-started-cards .card .card-body button:hover{
+				border: 1px solid #ffa500;
+				transition: 0.3s ease-in-out;
+				border-radius: 7px;
+				width: 200px;
+				height: 40px;
+				text-align: center;
 			}
 
 			.about-us{
 				width: 100%;
 				height: 90vh;
-				background: black;
 				color: #fff;
 			}
 
@@ -220,9 +237,14 @@
 				color: #fff;
 			}
 
+			.bitcoin-converter .card-body .btn:hover{
+				background: #fff;
+				color: #ffa500;
+				transition: 0.3s ease-in-out;
+			}
+
 			.features{
 				height: 90vh;
-				background: black;
 			}
 
 			.features .features-content{
@@ -272,7 +294,7 @@
 
 			.market{
 				height: 90vh;
-				background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(image1.png);
+				background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(images/image1.png);
 				background-size: cover;
 				background-position: center;
 			}
@@ -294,7 +316,6 @@
 
 			.choose-us{
 				height: 90vh;
-				background: black;
 			}
 
 			.choose-us-content{
@@ -335,7 +356,6 @@
 
 			.owners-quote{
 				height: 60vh;
-				background: black;
 			}
 
 			.owners-quote .owners-quote-content{
@@ -368,53 +388,90 @@
 				border: 3px solid #ffa500;
 			}
 
-			.contact{
-				height: 60vh;
-				background: black;
-				color: #fff;
+			.ending-details{
+				height: 45vh;
+				background: #1A1A1A;
 			}
-			
-			.contact .contact-content{
-				width: 86.5%;
-				margin: auto;
-				padding-top: 100px;
+
+			.ending-detailsContent{
+				width: 95%;
+				margin: 0 auto;
 				display: flex;
-				gap: 250px;
+				gap: 80px;
+				padding: 70px;
 			}
 
-			.contact-content .cointrol h1{
-				font-size: 50px;
-				padding-bottom: 15px;
-				font-weight: bold;
-			}
-
-			.contact-content .use-full-link h3{
-				padding-bottom: 15px;
-			}
-
-			.contact-content .use-full-link ul li{
-				list-style:disc;
-				padding-bottom: 10px;
-				font-weight: bold;
-				font-size: 18px;
-			}
-
-			.contact-content .use-full-link ul li a{
-				text-decoration: none;
+			.ending-detailsContent{
 				color: #fff;
-				transition: 0.4s ease-in-out;
 			}
 
-			.contact-content .use-full-link ul li a:hover{
+			.ending-detailsContent p{
+				color: #656765;
+			}
+
+			.ending-detailsContent p:hover{
 				color: #ffa500;
+				transition: 0.3s ease-in-out;
 			}
 
-			.contact-content .contact-details h3{
-				padding-bottom: 15px;
+			.ending-detailsContent p a:hover{
+				color: #ffa500;
+				transition: 0.3s ease-in-out;
 			}
 
-			.contact-content .contact-details div{
-				padding-bottom: 38px;
+			.ending-detailsContent h4{
+				color: #fff;
+			}
+
+			.ending-detailsContent a{
+				text-decoration: none;
+				color:#656765;
+			}
+
+			.ending-detailsContent input{
+				border: none;
+				border-bottom: 1px solid #656765;
+				padding-bottom: 6px;
+				background: transparent;
+			}
+
+			.ending-detailsContent .submit-button{
+				margin-top: 10px;
+				border: none;
+				border: 1px solid #ffa500;
+				width: 200px;
+				height: 50px;
+				background: transparent;
+				color: #fff;
+				cursor: pointer;
+				letter-spacing: 1.3px;
+			}
+
+			.ending-detailsContent .submit-button:hover{
+				border: none;
+				background: #ffa500;
+				transition: 0.3s ease-in-out;
+				color: #fff;
+			}
+
+			.accordion{
+				width: 100%;
+       		}
+
+			.accordion-item{
+				background: none !important;
+				border: none !important;
+				color: #656765 !important;
+			}
+
+			.accordion-button{
+				background: none !important;
+				border: none !important;
+				color: #656765 !important;
+			}
+
+			.accordion-button:focus{
+				color: #fff !important;
 			}
 
 /* Mobile-first styles */
@@ -437,6 +494,14 @@
 	  height: 40px;
 	  margin-right: 10px;
 	}
+
+	.navbar-toggler{
+		border: 3px solid #ffa500 !important;
+	}
+
+	.navbar-toggler-icon{
+		background: #fff !important;
+	}
   
 	/* Modify font sizes and padding for heading and text */
 	.home-intro .intro-text div{
@@ -452,6 +517,10 @@
 	.home-intro .intro-text p {
 	  font-size: 14px;
 	  margin-bottom: 30px;
+	}
+
+	.home-intro .intro-text .intro-btcImg{
+		display: none;
 	}
   
 	/* Adjust card width and font size */
@@ -564,7 +633,8 @@
 	}
 
 	.market .market-content .tradingview-widget-container {
-	  width: 100%;
+	  width: 100% !important;
+	  height: 77vh !important;
 	}
 
 	/* Adjust choose us section  */
@@ -593,22 +663,34 @@
 	}
 
 	/* Adjust contact section  */
-	.contact{
-		height: 130vh;
+	.ending-details{
+		height: 120vh;
 	}
 
-	.contact .contact-content{
+	.ending-details .ending-detailsContent{
 		display: list-item;
 		list-style: none;
 		position: relative;
 		bottom: 70px;
 	}
 
+	.ending-details .ending-detailsContent div{
+		margin-bottom: 35px;
+	}
+
   }
   
-  /* Tablet and larger screens */
+ 		 /* TABLET AND LARGER SCREEN */
   @media (min-width: 577px) and (max-width: 1024px) {
 	/* Adjust home section */
+	.navbar-toggler{
+		border: 3px solid #ffa500 !important;
+	}
+
+	.navbar-toggler-icon{
+		background: #fff !important;
+	}
+
 	.home-intro .intro-text div h1{
 		font-size: 50px;
 	}
@@ -619,7 +701,7 @@
 
 	/* Adjust get-started section */
 	.get-started{
-		height: 150vh;
+		height: 140vh;
 	}
 
 	.get-started .get-started-content h1{
@@ -665,6 +747,12 @@
 		display: none;
 	}
 
+	/* Market */
+	.market .market-content .tradingview-widget-container {
+	  width: 100% !important;
+	  height: 70vh !important;
+	}
+
 	/* Adjust section info gap */
 	.choose-us .choose-us-content {
 	  display: flex;
@@ -702,38 +790,32 @@
 	  font-size: 20px;
 	}
   
-	/* Adjust padding for contact content */
-	.contact-content {
-		padding-top: 50px;
-	  }
-	
-	/* Modify font sizes for contact section */
-	  .contact-content .cointrol h1 {
-		font-size: 40px;
-	  }
-	  
-	.contact-content .use-full-link h3 {
-		font-size: 24px;
-	  }
-	
-	.contact-content .use-full-link ul li {
-		font-size: 16px;
-	  }
-	
-	/* Adjust contact details padding */
-	  .contact-content .contact-details h3 {
-		padding-bottom: 10px;
-	  }
+	.ending-details{
+		height: 80vh;
+	}
 
-	/* Adjust section info gap */
-	.contact .contact-content {
-	  gap: 50px;
+	.ending-details .ending-detailsContent{
+		display: list-item;
+		list-style: none;
+		position: relative;
+		bottom: 70px;
+	}
+
+	.ending-details .ending-detailsContent div{
+		margin-bottom: 35px;
 	}
   }
   
-  /* desktop large screens from 1440px */
-  @media (min-width: 1440px) and (max-width: 1440px) {
-		/* get started section */
+  /* desktop screens resolution 1440 x 900 */
+@media screen and (width: 1440px) and (height: 900px) {
+		.HOME{
+			height: 70vh;
+		}
+
+		.home-intro .intro-text .intro-btcImg{
+			width: 300px;
+		}
+	
 		.get-started .get-started-content{
 			position: relative;
 			bottom: 70px;
@@ -756,10 +838,9 @@
 
 		.get-started-cards .row{
 			display: flex;
-			gap: 30px;
+			gap: 25px;
 		}
 
-		/* features section */
 		.features{
 			height: 110vh;
 		}
@@ -768,11 +849,41 @@
 			position: relative;
 			bottom: 70px;
 		}
+
+		.features .features-content .features-info{
+			display: flex;
+			gap: 100px;
+		}
+
+		.tradingview-widget-container{
+			width: 100% !important;
+		}
+
+		.ending-details{
+			height: 53vh;
+			margin-top: 80px;
+		}
+			
+		.ending-detailsContent{
+			width: 100%;
+			gap: 60px;
+		} 
+			
+		.ending-detailsContent .submit-button{
+			width: 300px;
+		}
+			
+		.ending-detailsContent input{
+			width: 300px;
+		}
   }
 
-  /* desktop large screens from 1280px */
-  @media (min-width: 1280px) and (max-width: 1280px) {
-	/* get started section */
+   /* desktop screens resolution 1280 x 1024 */
+@media screen and (width: 1280px) and (height: 1024px) {
+	.HOME{
+		height: 60vh;
+	}
+
 	.get-started .get-started-content{
 		position: relative;
 		bottom: 70px;
@@ -798,9 +909,8 @@
 		gap: 30px;
 	}
 
-	/* features section */
 	.features{
-		height: 120vh;
+		height: 90vh;
 	}
 
 	.features .features-content{
@@ -809,12 +919,22 @@
 	}
 
 	.features .features-content .features-info{
-		gap: 100px;
+		gap: 20px;
 	}
+
+	.tradingview-widget-container{
+		width: 100% !important;
+		height: 60vh !important;
+	}
+
+	.ending-detailsContent{
+		width: 100%;
+		gap: 30px;
+	} 
 }
 
-/* desktop screens from 1366px */
-@media (min-width: 1366px) and (max-width: 1366px) {
+   /* desktop screens resolution 1366 x 768 */
+   @media screen and (width: 1366px) and (height: 768px) {
 	.get-started{
 		height: 110vh;
 		background: black;				
@@ -854,6 +974,20 @@
 		height: 150vh;
 	}
 
+	.features .features-content .features-info{
+		display: flex;
+		gap: 60px;
+	}
+
+	.market{
+		height: 150vh;
+	}
+
+	.tradingview-widget-container{
+		width: 100% !important;
+		height: 100vh !important;
+	}
+
 	.choose-us{
 		height: 110vh;
 	}
@@ -865,6 +999,18 @@
 	.owners-quote .owners-quote-content{
 		padding-top: 70px;
 	}
+
+	.ending-details{
+		height: 53vh;
+		margin-top: 80px;
+	}
+		
+	.ending-detailsContent{
+		width: 100%;
+		gap: 60px;
+	} 
+		
+	
 }
 
 /* desktop screens resolution 1234 x 650 */
@@ -882,6 +1028,10 @@
 		height: 360px;
 		background: #252433;
 		margin-top: 20px;
+	}
+
+	.get-started-cards .card h5{
+		font-size: 30px !important;
 	}
 
 	.get-started-cards .row{
@@ -906,11 +1056,16 @@
 	}
 
 	.features .features-content .features-info{
-		gap: 100px;
+		display: flex;
+		gap: 10px;
 	}
 
 	.market{
-		height: 110vh;
+		height: 120vh;
+	}
+
+	.tradingview-widget-container{
+		width: 100% !important;
 	}
 
 	.choose-us{
@@ -921,14 +1076,14 @@
 		height: 100vh;
 	}
 
-	.contact{
-		height: 80vh;
+	.ending-details{
+		height: 64vh;
 	}
 
-	.contact .contact-content{
-		gap: 100px;
-	}
-
+	.ending-detailsContent{
+		width: 100%;
+		gap: 30px;
+	} 
 }
   
 
