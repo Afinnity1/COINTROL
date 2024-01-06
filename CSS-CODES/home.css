@@ -677,8 +677,94 @@
 	.ending-details .ending-detailsContent div{
 		margin-bottom: 35px;
 	}
-
   }
+
+    /* mobile screens resolution(iphone12pro) 390 x 844 */
+	@media screen and (width: 390px) and (height: 844px) {
+		.ending-details{
+			height: 130vh;
+		}
+	}
+
+	/* mobile screens resolution(samsung galaxy s8+) 360 x 740 */
+	@media screen and (width: 360px) and (height: 740px) {
+		.get-started{
+			height: 210vh;
+		}
+
+		.get-started-cards{
+			position: relative;
+			bottom: 80px;
+			left: 20px;
+		}
+
+		.get-started-cards .card {
+			width: 95%;
+			text-align: center;
+		  }
+
+		  .about-us{
+			height: 165vh;
+		}
+
+		.owners-quote{
+			height: 78vh;
+		}
+
+		.ending-details{
+			height: 160vh;
+		}
+	}
+
+	/* mobile screens resolution(iphone6/7/8) 375 x 667 */
+	@media screen and (width: 375px) and (height: 667px) {
+		.HOME{
+			height: 84vh;
+		}
+
+		.get-started{
+			height: 240vh;
+		}
+
+		.about-us{
+			height: 190vh;
+		}
+
+		.features{
+			height: 149vh;
+		}
+
+		.choose-us{
+			height: 182vh;
+		}
+
+		.owners-quote{
+			height: 100vh;
+		}
+
+		.ending-details{
+			height: 170vh;
+		}
+	}
+
+	/* mobile screens resolution(iphone6/7/8 +) 414 x 736 */
+	@media screen and (width: 414px) and (height: 736px) {
+		.get-started{
+			height: 220vh;
+		}
+
+		.about-us{
+			height: 160vh;
+		}
+
+		.choose-us{
+			height: 177vh;
+		}
+
+		.ending-details{
+			height: 150vh;
+		}
+	}
   
  		 /* TABLET AND LARGER SCREEN */
   @media (min-width: 577px) and (max-width: 1024px) {

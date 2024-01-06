@@ -264,6 +264,58 @@
 					margin-bottom: 35px;
 				}
 			}
+
+			/* mobile screens resolution(iphone12pro) 390 x 844 */
+			@media screen and (width: 390px) and (height: 844px) {
+				.ending-details{
+					height: 130vh;
+				}
+			}
+
+			/* mobile screens resolution(samsung galaxy s8+) 360 x 740 */
+			@media screen and (width: 360px) and (height: 740px) {
+				.faq .faq-content {
+					padding-top: 60px;
+				}
+
+				.FAQ-section{
+					height: 130vh;
+				}
+
+				.ending-details{
+					height: 152vh;
+				}
+			}
+
+			/* mobile screens resolution(iphone6/7/8) 375 x 667 */
+			@media screen and (width: 375px) and (height: 667px) {
+				.faq .faq-content {
+					padding-top: 40px;
+				}
+
+				.FAQ-section{
+					height: 145vh;
+				}
+
+				.ending-details{
+					height: 165vh;
+				}
+			}
+
+			/* mobile screens resolution(iphone6/7/8 +) 414 x 736 */
+			@media screen and (width: 414px) and (height: 736px) {
+				.faq .faq-content {
+					padding-top: 40px;
+				}
+
+				.FAQ-section{
+					height: 138vh;
+				}
+
+				.ending-details{
+					height: 165vh;
+				}
+			}
 		
 			/* Medium screens (tablets) */
 			@media (min-width: 577px) and (max-width: 992px) {

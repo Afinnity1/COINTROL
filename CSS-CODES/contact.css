@@ -287,6 +287,10 @@
          }
 
          /* styles for info section */
+         .info{
+            height: 53vh !important;
+        }
+
          .info .details{
             display: flex;
 		    flex-direction:column;
@@ -311,6 +315,76 @@
         }
     }
 
+    /* mobile screens resolution(iphoneXR) 414 x 896 */
+    @media screen and (width: 414px) and (height: 896px) {
+        .form{
+            height: 110vh;
+        }
+    }
+
+    /* mobile screens resolution(iphone12pro) 390 x 844 */
+    @media screen and (width: 390px) and (height: 844px) {
+        .ending-details{
+            height: 130vh;
+        }
+    }
+
+    /* mobile screens resolution(samsung galaxy s8+) 360 x 740 */
+    @media screen and (width: 360px) and (height: 740px) {
+        .form{
+            height: 140vh;
+         }
+
+         .info{
+            height: 60vh !important;
+        }
+
+        .ending-details{
+            height: 152vh;
+        }
+    }
+
+    /* mobile screens resolution(iphone6/7/8) 375 x 667 */
+    @media screen and (width: 375px) and (height: 667px) {
+        .Contact-us .Contact-us-content {
+            padding-top: 70px;
+        }
+
+        .form{
+            height: 148vh;
+         }
+
+         .form .form-content span{
+            font-size: 35px;
+         }
+
+         .info{
+            height: 69vh !important;
+        }
+
+        .ending-details{
+            height: 165vh;
+        }
+    }
+
+    /* mobile screens resolution(iphone6/7/8 +) 414 x 736 */
+    @media screen and (width: 414px) and (height: 736px) {
+        .form{
+            height: 137vh;
+         }
+
+         .form .form-content span{
+            font-size: 35px;
+         }
+
+         .info{
+            height: 69vh !important;
+        }
+
+        .ending-details{
+            height: 150vh;
+        }
+    }
     
     /* Media query for screens between 992px and 1199px (medium devices) */
     @media (min-width: 800px) and (max-width: 1199.98px) {
