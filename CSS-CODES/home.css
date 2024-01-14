@@ -34,7 +34,7 @@
 			.HOME{
 				width: 100%;
 				height: 80vh;
-				background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/milad-fakurian-wNsHBf_bTBo-unsplash.jpg);
+				background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(milad-fakurian-wNsHBf_bTBo-unsplash.jpg);
 				background-size: cover;
 				background-position: center;
 			}
@@ -294,7 +294,7 @@
 
 			.market{
 				height: 90vh;
-				background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(images/image1.png);
+				background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(image1.png);
 				background-size: cover;
 				background-position: center;
 			}
